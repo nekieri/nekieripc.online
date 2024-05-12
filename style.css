@@ -1,0 +1,554 @@
+@keyframes an6
+{
+    from
+    {
+        opacity: 0.5;
+    }
+    to
+    {
+       opacity: 1;
+    } 
+}
+@keyframes an5
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+       opacity: 1;
+    } 
+}
+@keyframes an4
+{
+    from
+    {
+        transform: translateX(0%);
+    }
+    to
+    {
+        transform: translateX(-50%);
+    }
+}
+@keyframes an3
+{
+    from
+    {
+        transform: translateX(-50%);
+    }
+    to
+    {
+        transform: translateX(0%)
+}
+}
+@keyframes an2
+{
+    from
+    {
+        opacity: 0.4;
+        transform: translateY(0px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(80px);
+    }
+}
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 545px;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: #fff;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+@keyframes an1
+{
+    from
+    {
+        transform: translateX(-350px);
+        transform: translateY(-430px);
+    }
+    to
+    {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+}
+ .title
+{
+    position: absolute;
+    color: #fff;
+    font-family: 'Zen Dots';
+    font-size: 400px;
+    margin-top: 200px;
+    margin-left: 75px;
+    width: 1685px;
+    height: 371px;
+}
+.text0
+{
+    position: absolute;
+    color: #fff;
+    font-family: 'Zen Dots';
+    font-size: clamp(32px, 24px, 16px);
+    margin-top: 800px;
+    margin-left: 650px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(24) infinite alternate,
+    blink 1s steps(24) infinite normal;
+    border-right: 10px solid #fff;
+}
+.maintitle
+{
+    position: absolute;
+    color:#fff;
+    font-family: 'Zen Dots';
+    font-size: 190px;
+    margin-top: 1050px;
+    margin-left: 418px;
+    animation:  an6  linear;
+    animation-timeline: view();
+    animation-range: cover 10% contain 100%;
+}
+.img1
+{
+    position: absolute;
+    margin-top: -450px;
+    animation-name: an1;
+    animation-duration: 2s;
+}
+.img2
+{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -100px;
+    animation-name: an1;
+    animation-duration: 2s;
+}
+.rectangle0
+{
+    position: absolute;
+    background: linear-gradient(
+        to right,
+        #122931 16%,
+        #8F4F6E 54%,
+        #6D81C8 88%
+    );
+    height: 8px;
+    width: 1644px;
+    margin-left: 100px;
+    border-radius: 100px;
+    margin-top: 1000px;
+    animation: an2 linear;
+    animation-timeline: view();
+    animation-range: cover 20% cover 100%;
+}
+.t1
+{
+    position: absolute;
+    color: #fff;
+    font-family: 'Zen Dots';
+    font-size: 36px;
+    margin-top: 1350px;
+    margin-left: 120px;
+}
+.rectangle1
+{
+    position: absolute;
+    background: linear-gradient( #fff, #122931);
+    margin-top: 1350px;
+    margin-left: 63px;
+    width: 18px;
+    height: 812px;
+    border-radius: 9px;
+}
+.text1
+{
+    position: absolute;
+    font-family: 'Zen Kaku Gothic New';
+    font-size: 48px;
+    margin-top: 1370px;
+    margin-left: 154px;
+    width: 813px;
+    height: 209px;
+    animation:  an6  linear;
+    animation-timeline: view();
+    animation-range: cover 10% contain 100%;
+}
+.gr1
+{
+    background-image: linear-gradient(to right, #fff, #8F4F6E);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.t2
+{
+    position: absolute;
+    font-family: 'Zen Dots';
+    font-size: 36px;
+    margin-top: 1618px;
+    margin-left: 985px;
+    color: #fff;
+}
+.text2
+{
+    position: absolute;
+    font-family: 'Zen Kaku Gothic New';
+    font-size: 48px;
+    margin-top: 1652px;
+    margin-left: 1026px;
+    height: 266px;
+    animation:  an6  linear;
+    animation-timeline: view();
+    animation-range: cover 10% contain 100%;
+}
+.gr2
+{
+    background-image: linear-gradient(to right, #6D81C8, #fff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.t3
+{
+    position: absolute;
+    font-family: 'Zen Dots';
+    font-size: 36px;
+    color: #fff;
+    margin-top: 1929px;
+    margin-left: 120px;
+}
+.text3
+{
+    position: absolute;
+    font-family: 'Zen Kaku Gothic New';
+    font-size: 48px;
+    height: 124px;
+    width: 831px;
+    margin-top: 1965px;
+    margin-left: 154px;
+    animation:  an6  linear;
+    animation-timeline: view();
+    animation-range: cover 10% contain 100%;
+}
+.gr3
+{
+    background-image: linear-gradient(to right, #122931, #fff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.gr4
+{
+    background-image: linear-gradient(to right, #6D81C8, #9FD62C,#122931);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.gr5
+{
+    background-image: linear-gradient(to right, #122931 11%, #6D81C8 44%, #9FD62C 62%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.gr6
+{
+    background-image: linear-gradient(to right, #D8267B, #122931);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.text4
+{
+    position: absolute;
+    font-size: 120px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 2200px;
+    margin-left: 126px;
+    opacity: 0;
+    animation: an5  linear;
+    animation-timeline: view();
+    animation-range: cover 5% contain 100%;
+}
+.text5
+{
+    position: absolute;
+    font-size: 120px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3000px;
+    margin-left: 1000px;
+    opacity: 0;
+    animation:  an5  linear;
+    animation-timeline: view();
+    animation-range: cover 0% contain 100%;
+}
+.text6
+{
+    position: absolute;
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3388px;
+    animation: an3 30s infinite linear;
+    width: 10000px;
+}
+.rectangle2
+{
+    position: absolute;
+    background: #fff;
+    border-radius: 45px;
+    height:645px;
+    width: 376px;
+    margin-top: 3648px;
+    margin-left: 92px;
+}
+.rectangle3
+{
+    position: absolute;
+    background: #fff;
+    border-radius: 40px;
+    height: 645px ;
+    width: 541px;
+    margin-top: 3648px;
+    margin-left: 570px;
+}
+.rectangle4
+{
+    position: absolute;
+    background: #fff;
+    border-radius: 40px;
+    height: 645px;
+    width: 594px;
+    margin-top: 3648px;
+    margin-left: 1213px;
+}
+.rectangle5
+{
+    position: absolute;
+    background: #FF007A;
+    border-radius: 22.5px;
+    height: 42px;
+    width: 109px;
+    margin-top: 3731px;
+    margin-left: 269px;
+}
+.rectangle6
+{
+    position: absolute;
+    background: #122931;
+    border-radius: 22.5px;
+    height: 42px;
+    width: 109px;
+    margin-top: 3731px;
+    margin-left: 778px;
+}
+.rectangle7
+{
+    position: absolute;
+    background: #FF007A;
+    border-radius: 22.5px;
+    height: 42px;
+    width: 109px;
+    margin-top: 3735px;
+    margin-left: 1418px;
+}
+.img7
+{
+    position: absolute;
+    margin-top: 4050px;
+    margin-left: 125px;
+}
+.img8
+{
+    position: absolute;
+    margin-top: 3807px;
+    margin-left: 125px;
+}
+.img9
+{
+    position: absolute;
+    margin-top: 3807px;
+    margin-left: 651px;
+}
+.img10
+{
+    position:absolute;
+    margin-top: 3581px;
+    margin-left: 1160px;
+}
+.img11
+{
+    position: absolute;
+    margin-top: 4640px;
+    margin-left: 21px;
+}
+.img12
+{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -300px;
+    animation: an2 2s;
+}
+.text7
+{
+    position: absolute;
+    color: #000;
+    font-family: 'Zen Kaku Gothic New';
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 3638px;
+    margin-left: 106px;
+}
+.text8
+{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3698px;
+    margin-left: 106px;
+}
+.text9
+{
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3721px;
+    margin-left: 291px;
+}
+.text10
+{
+    position: absolute;
+    color: #000;
+    font-size: 60px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3638px;
+    margin-left: 590px;
+}
+.text11
+{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3698px;
+    margin-left: 590px;
+}
+.text12
+{
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3721px;
+    margin-left: 804px;
+}
+.text13
+{
+    position: absolute;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    opacity: 60%;;
+    margin-top: 3672px;
+    margin-left: 900px;
+}
+.text14
+{
+    position: absolute;
+    color: #000;
+    font-size: 60px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3638px;
+    margin-left: 1236px;
+}
+.text15
+{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3684px;
+    margin-left: 1236px;
+}
+.text16
+{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3658px;
+    opacity: 60%;
+    margin-left: 1546px;
+}
+.text17
+{
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: bold;
+    margin-top: 3705px;
+    margin-left: 1440px;
+}
+.text18
+{
+    position: absolute;
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Zen Kaku gothic New';
+    font-weight: bold;
+    width: 10000px;
+    animation: an4 30s infinite linear;
+    margin-top:  4410px;
+}
+.vid
+{
+    position: absolute;
+    margin-top: 2500px;
+    
+}
+.vid1
+{
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: 519px;
+}
+.vid2
+{
+    position: absolute;
+    margin-top: 2200px;
+    margin-left: 1000px;
+}
+.vid3
+{
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: 1463px;
+}
